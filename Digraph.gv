@@ -1,0 +1,22 @@
+digraph {
+	test [label=test]
+	Python [label=Python]
+	test -> Python
+	Python2 [label=Python2]
+	test -> Python2
+	Python [label=Python]
+	python [label=python]
+	Python -> python
+	"testPython.txt" [label="testPython.txt"]
+	Python -> "testPython.txt"
+	python [label=python]
+	"test1.txt" [label="test1.txt"]
+	python -> "test1.txt"
+	"test2.txt" [label="test2.txt"]
+	python -> "test2.txt"
+	"test3.txt" [label="test3.txt"]
+	python -> "test3.txt"
+	Python2 [label=Python2]
+	"testPython2.txt" [label="testPython2.txt"]
+	Python2 -> "testPython2.txt"
+}
